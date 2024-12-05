@@ -1,8 +1,8 @@
 # Smart-Expense-Tracker
 The aim of this project is to develop a Smart Expense Tracker that enables users to track their daily expenses, analyze spending patterns, and receive personalized budget optimization suggestions. 
 
-Assessment Criteria Evaluation
-1. Creativity
+# Assessment Criteria Evaluation
+## 1. Creativity
 o The Smart Expense Tracker stands out as a practical yet innovative application.
 o Unique features such as personalized budget analysis and expense warnings
 demonstrate originality.
@@ -27,3 +27,6 @@ insights into spending.
 o The code is structured, with logical separation of concerns.
 o Inline comments clarify the purpose of each class and method, enhancing
 readability.
+6. Documentation
+o Comprehensive documentation is provided, explaining the project design,
+implementation, and features.
