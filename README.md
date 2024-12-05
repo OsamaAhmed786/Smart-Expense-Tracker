@@ -30,3 +30,39 @@ readability.
 ## 6. Documentation
  Comprehensive documentation is provided, explaining the project design,
 implementation, and features.
+
+
+## Class Diagram Overview:
+The diagram illustrates the relationships between classes in the Smart Expense Tracker.
++-------------------+
+|    Expense        |
++-------------------+
+| - category: String|
+| - amount: double  |
+| - date: String    |
++-------------------+
+| + getters/setters |
++-------------------+
+         ^
+         |
+         |
++------------------------------+
+|         BudgetManager        |
++------------------------------+
+| - monthlyBudget: double      |
+| - totalExpenses: double      |
+| - expenses: ArrayList<Expense>|
++------------------------------+
+| + addExpense(Expense): void  |
+| + checkBudgetStatus(): void  |
+| + displayExpenses(): void    |
++------------------------------+
+             ^
+             |
+             |
++-----------------------------+
+|         DataManager         |
++-----------------------------+
+| + saveData(): void          |
+| + loadData(): void          |
++-----------------------------+
